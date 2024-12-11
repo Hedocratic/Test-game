@@ -11,5 +11,13 @@ config_version=5
 [application]
 
 config/name="Test game"
+run/main_scene="res://Test game.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
+
+[input]
+
+up={
+"deadzone": 0.5,
+"events": []
+}
