@@ -68,6 +68,7 @@ sources/0 = SubResource("TileSetAtlasSource_v148o")
 [node name="CharacterBody2D" type="CharacterBody2D" parent="Player"]
 z_index = 1
 script = ExtResource("1_51ubj")
+speed = null
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player/CharacterBody2D"]
 shape = SubResource("CapsuleShape2D_ing0f")
